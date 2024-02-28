@@ -1,6 +1,4 @@
-
-//Esta es una opción para llamar a HTML y es como llamar a css con #
-const btn = document.querySelector("#btn");
+import {mostrarPrecio} from "./ModuloFunction.js";
 
 //Esta es otra opción para llamar a HTML
 const menu = document.getElementById("menu");

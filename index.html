@@ -2,14 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="viewport" content="width=device-width, initial-scale=1.0">
         <title>Documentos</title>
+        <link rel="stylesheet" href="css/Style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/StyleMobile.css"
+    />
+
+
     </head>
     <body>
         <h1>Ejercicio Menu</h1>
         <form>
             <select id="menu">
-                <option value="" selected disabled>
+                <option value="" selected disabled hidden>
                     Seleciones una opcion del menu
                 </option>
                 <option value="1">Helado</option>
@@ -17,10 +26,10 @@
                 <option value="3">Perro Caliente</option>
                 <option value="4">Ensalada</option>
             </select>   
-            <button id="btn">Ver Precio</button>
+            <button id="btn" class="btn">Ver Precio</button>
         </form>
 
-        <div id="item"></div>
+        <div id="item" class="item"></div>
         <script type ="module" src = "main.js"></script>
     </body>
 </html>
